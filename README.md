@@ -2,6 +2,28 @@
 
 This project fetches current weather data from the OpenWeatherMap API and stores it in a SQLite database.
 
+## Project Description
+
+Weather Data Fetcher is a Python-based application designed to demonstrate the ability to fetch data from an external API and store it in a local database. This project fulfills the requirements of a peer review assignment focused on API data retrieval and database management.
+
+### Key Features:
+
+1. **API Integration**: The application connects to the OpenWeatherMap API to fetch real-time weather data for a specified city.
+
+2. **Database Management**: Utilizes SQLite to set up a local database, creating appropriate tables to store the retrieved weather information.
+
+3. **Data Fetching and Storage**: Implements a mechanism to fetch weather data from the API and systematically store it in the SQLite database.
+
+4. **Schema Setup**: Includes necessary database schema setup and migration scripts to ensure proper data structure.
+
+5. **Configurable City Selection**: Allows users to easily modify the target city for weather data retrieval.
+
+### Technical Highlights:
+
+- Written in Python, demonstrating proficiency in scripting and API interactions.
+- Uses the `requests` library for API calls and the built-in `sqlite3` module for database operations.
+- Implements error handling for robust performance.
+- Follows best practices in code organization and documentation.
 ## Prerequisites
 
 - Python 3.6 or higher
